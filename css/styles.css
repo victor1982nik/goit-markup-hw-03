@@ -1,0 +1,219 @@
+:root {
+    --accent-color: #2196F3;
+    --first-color-text: #757575;
+    --secondary-color-text: #000000;
+    --third-color-text: #212121;
+    --forth-color-text: rgba(255, 255, 255, 0.6);
+    --fifth-color-text: #FFFFFF;
+    --background-color: #2F303A;
+    /*secondary font -- font-family: 'Raleway',    sans-serif; */
+    /* main font  -- font-family: 'Roboto',    sans-serif; */
+
+}
+
+body {
+    font-family: 'Roboto',    sans-serif;
+    color: var(--first-color-text);   
+    letter-spacing: 0.03em;
+}
+
+.logo {
+    color: var(--accent-color);
+    font-family: 'Raleway';    
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;        
+    text-decoration: none;
+}
+
+.header-logo {
+    color: var(--secondary-color-text);
+}
+
+.list {
+    list-style: none;
+}
+
+/*navigation */
+
+.nav, 
+.contacts {    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;    
+}
+.nav-link {
+    color: var(--third-color-text);   
+    text-decoration: none;
+}
+
+.nav-link:hover:hover, 
+.nav-link:focus:focus,
+.contacts-link:hover, 
+.contacts-link:focus,
+.footer-contacts:hover,
+.footer-contacts:focus
+{
+    color: var(--accent-color);    
+}
+
+.contacts-link {      
+    color: currentColor;
+    text-decoration: none;
+}
+
+.active-menu {
+    color: var(--accent-color);
+}
+
+/* hero */
+
+.hero {
+    background-color: var(--background-color);    
+}
+
+.hero-title {
+    color: var(--fifth-color-text);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button-hero {
+    color: var(--fifth-color-text);
+    font-family: inherit;
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;   
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.button-hero:hover,
+.button-hero:focus
+ {
+    background-color: #188CE8;
+}
+
+/* sections */
+.section {
+    background-color: #F5F4FA;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.section-title {
+    color: var(--third-color-text);
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;    
+}
+
+.list-title {
+    color: var(--third-color-text); 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;    
+    text-transform: uppercase;
+}
+
+.list-text {    
+    font-size: 14px;
+    line-height: 1.71;    
+}
+
+.title-team, 
+.text-team-position {    
+    line-height: 1.18;
+    text-align: center;    
+}
+
+.title-team {
+    color: var(--third-color-text);  
+    font-weight: 500;    
+    font-size: 16px;
+}
+
+/* section ends */
+/* footer */
+
+.footer-logo {
+    color: var(--fifth-color-text);
+}
+
+.footer {
+    background-color: var(--background-color);
+}
+
+.footer-adress,
+.footer-contacts {    
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;    
+}
+
+.footer-adress {
+    color: var(--fifth-color-text);   
+}
+
+.footer-contacts {
+    color: var(--forth-color-text);  
+    text-decoration: none;
+}
+
+/* portfolio*/
+
+.filter-button{
+    font-family: inherit;
+    color: var(--third-color-text);
+    background-color: transparent;   
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;    
+    text-align: center;    
+    cursor: pointer;
+}
+
+.active-btn {
+    color: var(--fifth-color-text);
+    background-color: var(--accent-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--fifth-color-text);
+    background-color: var(--accent-color);
+}
+
+.portfolio-link {
+    text-decoration: none;
+}
+.work-title {
+    color: var(--third-color-text);   
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;    
+}
+
+.work-description {
+    color: var(--first-color-text);     
+    line-height: 1.8;       
+}
+
+
