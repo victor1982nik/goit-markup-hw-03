@@ -6,6 +6,7 @@
     --forth-color-text: rgba(255, 255, 255, 0.6);
     --fifth-color-text: #FFFFFF;
     --background-color: #2F303A;
+    --secondary-bg-color: #F5F4FA;
     /*secondary font -- font-family: 'Raleway',    sans-serif; */
     /* main font  -- font-family: 'Roboto',    sans-serif; */
 
@@ -104,6 +105,9 @@ img {
 }
 
 .contacts-link {      
+    display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
     margin-left: auto; 
     color: currentColor;
     text-decoration: none;     
@@ -129,9 +133,9 @@ img {
     line-height: 1.36;    
     letter-spacing: 0.06em;
     text-transform: uppercase;    
-    padding-left: 250px;
-    padding-right: 250px;
-    margin-bottom: 30px;    
+    width: 696px;
+    margin: 0 auto 30px;    
+    
 }
 
 .button-hero {
@@ -187,7 +191,6 @@ img {
     margin-right: 0;
 }
 
-
 .section-title {
     color: var(--third-color-text);
     font-size: 36px;
@@ -226,7 +229,7 @@ img {
 }
 
 .section-team {
-    background-color: #F5F4FA;
+    background-color: var(--secondary-bg-color);
     padding-top: 94px;
     padding-bottom: 94px;
     
@@ -246,13 +249,13 @@ img {
     margin-right: 0;
 }
 
-.pic-pers {
-    margin-bottom: 30px;
+.team-description {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .text-team-position {    
-    line-height: 1.18;
-    margin-bottom: 30px; /*убрать потом*/        
+    line-height: 1.18;           
 }
 
 .title-team {
@@ -265,15 +268,18 @@ img {
 
 /* section ends */
 /* footer */
-
-.footer-logo {
-    color: var(--fifth-color-text);    
-}
-
 .footer {
     background-color: var(--background-color);
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0px;    
+}
+
+.footer-logo-link {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+.footer-logo {
+    color: var(--fifth-color-text);    
 }
 
 .footer-adress,
@@ -284,8 +290,7 @@ img {
 }
 
 .footer-adress {
-    color: var(--fifth-color-text);   
-    margin-top: 20px;
+    color: var(--fifth-color-text);    
     margin-bottom: 9px;
 }
 
@@ -317,6 +322,7 @@ img {
 }
 .filter-item {
     margin-right: 8px;
+    background-color: var(--secondary-bg-color);
 }
 .features-item:last-child {
     margin-right: 0;
@@ -351,10 +357,7 @@ img {
     /* padding-bottom: 20px; */
     margin-right: 30px;
     margin-bottom: 30px;
-}
-
-.portfolio-foto {
-    border-bottom: 1px solid #EEEEEE;
+    
 }
 
 .portfolio-item:nth-child(3n) {
@@ -371,7 +374,9 @@ img {
 }
 
 .item-text{
-    margin: 20px 24px;
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
 }
  
 .work-title {
