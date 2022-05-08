@@ -282,6 +282,10 @@ img {
     color: var(--fifth-color-text);    
 }
 
+.adress-item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
 .footer-adress,
 .footer-contacts {    
     font-style: normal;
@@ -314,12 +318,10 @@ img {
 
 .filter {
     display: flex;
-    justify-content: center;
-    margin-left: 280px;
-    margin-right: 280px;
-    margin-bottom: 34px;
-    
+    justify-content: center;    
+    margin-bottom: 50px;    
 }
+
 .filter-item {
     margin-right: 8px;
     background-color: var(--secondary-bg-color);
